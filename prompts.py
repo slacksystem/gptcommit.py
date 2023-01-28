@@ -1,5 +1,5 @@
 # noqa: W291
-file_diff = """
+FILE_DIFF = """
 You are an expert programmer, and you are trying to su
 mmarize a git diff.
 Reminders about the git diff format:
@@ -60,7 +60,7 @@ It is given only as an example of appropriate comments
 
 THE GIT DIFF TO BE SUMMARIZED:
 ```
-<FILE_DIFF>
+<<FILE_DIFF>>
 ```
 
 THE SUMMARY:
@@ -83,7 +83,7 @@ d not be more than a few bullet points.
 
 THE FILE SUMMARIES:
 ```
-<SUMMARY_POINTS>
+<<SUMMARY_POINTS>>
 ```
 
 Remember to write only the most important points and d
@@ -116,7 +116,7 @@ Schedule all GitHub actions on all OSs
 
 THE FILE SUMMARIES:
 ```
-<SUMMARY_POINTS>
+<<SUMMARY_POINTS>>
 ```
 
 Remember to write only one line, no more than 50 chara
